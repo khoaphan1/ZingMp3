@@ -45,55 +45,55 @@ var singers = [
         id : 1,
         name : 'Hoàng Dũng',
         description : '',
-        image : '/assets/img/singer/hoangdung.jpg',
+        image : './assets/img/singer/hoangdung.jpg',
     },
     {
         id : 2,
         name : 'Amee',
         description : '',
-        image : '/assets/img/singer/amee.jpg',
+        image : './assets/img/singer/amee.jpg',
     },
     {
         id : 3,
         name : 'BinZ',
         description : '',
-        image : '/assets/img/singer/binz.jpg',
+        image : './assets/img/singer/binz.jpg',
     },
     {
         id : 4,
         name : 'Đen Vâu',
         description : '',
-        image : '/assets/img/singer/denvau.jpg',
+        image : './assets/img/singer/denvau.jpg',
     },
     {
         id : 5,
         name : 'Justatee',
         description : '',
-        image : '/assets/img/singer/justatee.jpg',
+        image : './assets/img/singer/justatee.jpg',
     },
     {
         id : 6,
         name : 'Karik',
         description : '',
-        image : '/assets/img/singer/karik.jpg',
+        image : './assets/img/singer/karik.jpg',
     },
     {
         id : 7,
         name : 'Noo Phước Thịnh',
         description : '',
-        image : '/assets/img/singer/noo.jpg',
+        image : './assets/img/singer/noo.jpg',
     },
     {
         id : 8,
         name : 'Sobin Hoàng Sơn',
         description : '',
-        image : '/assets/img/singer/soobin.jpg',
+        image : './assets/img/singer/soobin.jpg',
     },
     {
         id : 9,
         name : 'Sơn Tùng MTP',
         description : '',
-        image : '/assets/img/singer/sontung.jpg',
+        image : './assets/img/singer/sontung.jpg',
     }
 ]
 
@@ -140,7 +140,7 @@ var songs = [
     {
         id : 1,
         name : 'Chẳng Nói Nên Lời (Acoustic)',
-        path : '/assets/music/hoangdung/Hoàng Dũng - Chẳng Nói Nên Lời (Acoustic).mp3',
+        path : './assets/music/hoangdung/Hoàng Dũng - Chẳng Nói Nên Lời (Acoustic).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/hoangdung_pic.jpg' ,
         id_Singer : 1,
@@ -150,7 +150,7 @@ var songs = [
     {
         id : 2,
         name : 'Yếu Đuối',
-        path : '/assets/music/hoangdung/Hoàng Dũng - Yếu Đuối.mp3',
+        path : './assets/music/hoangdung/Hoàng Dũng - Yếu Đuối.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/hoangdung_pic.jpg' ,
         id_Singer : 1,
@@ -170,7 +170,7 @@ var songs = [
     {
         id : 4,
         name : 'Chờ Anh Nhé',
-        path : '/assets/music/hoangdung/Hoàng Dũng, Hoàng Rob - Chờ Anh Nhé.mp3',
+        path : './assets/music/hoangdung/Hoàng Dũng, Hoàng Rob - Chờ Anh Nhé.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/hoangdung_pic.jpg' ,
         id_Singer : 1,
@@ -180,7 +180,7 @@ var songs = [
     {
         id : 5,
         name : 'Anh Đánh Rơi Người Yêu Này',
-        path : '/assets/music/amee/anhdanhroinynay.mp3',
+        path : './assets/music/amee/anhdanhroinynay.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -190,7 +190,7 @@ var songs = [
     {
         id : 6,
         name : 'Anh Nhà Ở Đâu Thế',
-        path : '/assets/music/amee/anhnhaodauthe.mp3',
+        path : './assets/music/amee/anhnhaodauthe.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -200,7 +200,7 @@ var songs = [
     {
         id : 7,
         name : 'Đen đá không đường',
-        path : '/assets/music/amee/dendakduong.mp3',
+        path : './assets/music/amee/dendakduong.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -210,7 +210,7 @@ var songs = [
     {
         id : 8,
         name : 'Do For Love',
-        path : '/assets/music/amee/doforlove.mp3',
+        path : './assets/music/amee/doforlove.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -220,7 +220,7 @@ var songs = [
     {
         id : 9,
         name : 'Ex Hate Me',
-        path : '/assets/music/amee/exhateme.mp3',
+        path : './assets/music/amee/exhateme.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -230,7 +230,7 @@ var songs = [
     {
         id : 10,
         name : 'Sao Anh Chưa Về',
-        path : '/assets/music/amee/saoanhchuave.mp3',
+        path : './assets/music/amee/saoanhchuave.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -240,7 +240,7 @@ var songs = [
     {
         id : 11,
         name : 'Trời dấu trời mang đi',
-        path : '/assets/music/amee/troidautroimangdi.mp3',
+        path : './assets/music/amee/troidautroimangdi.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/amee_pic.jpg' ,
         id_Singer : 2,
@@ -250,7 +250,7 @@ var songs = [
     {
         id : 12,
         name : 'Nguyên Team Đi Vào Hết',
-        path : '/assets/music/binz/Binz - Nguyên Team Đi Vào Hết.mp3',
+        path : './assets/music/binz/Binz - Nguyên Team Đi Vào Hết.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/binz_pic.jpg' ,
         id_Singer : 3,
@@ -260,7 +260,7 @@ var songs = [
     {
         id : 13,
         name : 'SOFAR',
-        path : '/assets/music/binz/Binz - SOFAR.mp3',
+        path : './assets/music/binz/Binz - SOFAR.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/binz_pic.jpg' ,
         id_Singer : 3,
@@ -270,7 +270,7 @@ var songs = [
     {
         id : 14,
         name : 'Bigcityboi',
-        path : '/assets/music/binz/Binz, Touliver - Bigcityboi.mp3',
+        path : './assets/music/binz/Binz, Touliver - Bigcityboi.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/binz_pic.jpg' ,
         id_Singer : 3,
@@ -280,7 +280,7 @@ var songs = [
     {
         id : 15,
         name : 'They Said',
-        path : '/assets/music/binz/Touliver, Binz - They Said.mp3',
+        path : './assets/music/binz/Touliver, Binz - They Said.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/binz_pic.jpg' ,
         id_Singer : 3,
@@ -290,7 +290,7 @@ var songs = [
     {
         id : 16,
         name : 'Krazy',
-        path : '/assets/music/binz/Touliver, Binz, Andree, Evy - Krazy.mp3',
+        path : './assets/music/binz/Touliver, Binz, Andree, Evy - Krazy.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/binz_pic.jpg' ,
         id_Singer : 3,
@@ -300,7 +300,7 @@ var songs = [
     {
         id : 17,
         name : 'Anh Đếch Cần Gì Nhiều Ngoài Em',
-        path : '/assets/music/denvau/Đen - Anh Đếch Cần Gì Nhiều Ngoài Em ft. Vũ., Thành Đồng (M-V) (128  kbps).mp3',
+        path : './assets/music/denvau/Đen - Anh Đếch Cần Gì Nhiều Ngoài Em ft. Vũ., Thành Đồng (M-V) (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/den_pic.jpg' ,
         id_Singer : 4,
@@ -310,7 +310,7 @@ var songs = [
     {
         id : 18,
         name : 'Hai triệu năm',
-        path : '/assets/music/denvau/Đen - hai triệu năm ft. Biên (m-v) (128  kbps) (1).mp3',
+        path : './assets/music/denvau/Đen - hai triệu năm ft. Biên (m-v) (128  kbps) (1).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/den_pic.jpg' ,
         id_Singer : 4,
@@ -320,7 +320,7 @@ var songs = [
     {
         id : 19,
         name : 'Bài Này Chill Phết',
-        path : '/assets/music/denvau/Đen ft. MIN - Bài Này Chill Phết (M-V) (128  kbps).mp3',
+        path : './assets/music/denvau/Đen ft. MIN - Bài Này Chill Phết (M-V) (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/den_pic.jpg' ,
         id_Singer : 4,
@@ -330,7 +330,7 @@ var songs = [
     {
         id : 20,
         name : 'Đố Em Biết Anh Đang Nghĩ Gì',
-        path : '/assets/music/denvau/Đen, JustaTee, Biên - Đố Em Biết Anh Đang Nghĩ Gì.mp3',
+        path : './assets/music/denvau/Đen, JustaTee, Biên - Đố Em Biết Anh Đang Nghĩ Gì.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/den_pic.jpg' ,
         id_Singer : 4,
@@ -340,7 +340,7 @@ var songs = [
     {
         id : 21,
         name : 'Bâng Khuâng',
-        path : '/assets/music/justatee/JustaTee - Bâng Khuâng.mp3',
+        path : './assets/music/justatee/JustaTee - Bâng Khuâng.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/justatee_pic.jpg' ,
         id_Singer : 5,
@@ -350,7 +350,7 @@ var songs = [
     {
         id : 22,
         name : 'Forever Alone',
-        path : '/assets/music/justatee/JustaTee - Forever Alone.mp3',
+        path : './assets/music/justatee/JustaTee - Forever Alone.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/justatee_pic.jpg' ,
         id_Singer : 5,
@@ -360,7 +360,7 @@ var songs = [
     {
         id : 23,
         name : 'Người Nào Đó',
-        path : '/assets/music/justatee/JustaTee - Người Nào Đó.mp3',
+        path : './assets/music/justatee/JustaTee - Người Nào Đó.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/justatee_pic.jpg' ,
         id_Singer : 5,
@@ -370,7 +370,7 @@ var songs = [
     {
         id : 24,
         name : 'She Neva Knows',
-        path : '/assets/music/justatee/JustaTee - She Neva Knows.mp3',
+        path : './assets/music/justatee/JustaTee - She Neva Knows.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/justatee_pic.jpg' ,
         id_Singer : 5,
@@ -380,7 +380,7 @@ var songs = [
     {
         id : 25,
         name : 'Thằng Điên',
-        path : '/assets/music/justatee/JustaTee, Phương Ly - Thằng Điên.mp3',
+        path : './assets/music/justatee/JustaTee, Phương Ly - Thằng Điên.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/justatee_pic.jpg' ,
         id_Singer : 5,
@@ -390,7 +390,7 @@ var songs = [
     {
         id : 26,
         name : 'Anh Là Của Em',
-        path : '/assets/music/karik/Anh La Cua Em - Karik.mp3',
+        path : './assets/music/karik/Anh La Cua Em - Karik.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/karik_pic.jpg' ,
         id_Singer : 6,
@@ -400,7 +400,7 @@ var songs = [
     {
         id : 27,
         name : 'Cạn Cả Nước Mắt',
-        path : '/assets/music/karik/CanCaNuocMat-KarikThaiTrinh-4452295.mp3',
+        path : './assets/music/karik/CanCaNuocMat-KarikThaiTrinh-4452295.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/karik_pic.jpg' ,
         id_Singer : 6,
@@ -410,7 +410,7 @@ var songs = [
     {
         id : 28,
         name : 'Giá Như',
-        path : '/assets/music/noo/Noo Phuoc Thinh - Giá Như.mp3',
+        path : './assets/music/noo/Noo Phuoc Thinh - Giá Như.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/noo_pic.jpg' ,
         id_Singer : 7,
@@ -420,7 +420,7 @@ var songs = [
     {
         id : 29,
         name : 'Xa Em',
-        path : '/assets/music/noo/Noo Phuoc Thinh - Xa Em.mp3',
+        path : './assets/music/noo/Noo Phuoc Thinh - Xa Em.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/noo_pic.jpg' ,
         id_Singer : 7,
@@ -430,7 +430,7 @@ var songs = [
     {
         id : 30,
         name : 'Chạm Khẽ Tim Anh Một Chút Thôi',
-        path : '/assets/music/noo/Noo Phước Thịnh - Chạm Khẽ Tim Anh Một Chút Thôi.mp3',
+        path : './assets/music/noo/Noo Phước Thịnh - Chạm Khẽ Tim Anh Một Chút Thôi.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/noo_pic.jpg' ,
         id_Singer : 7,
@@ -440,7 +440,7 @@ var songs = [
     {
         id : 31,
         name : 'Anh Đã Quen Với Cô Đơn',
-        path : '/assets/music/sobin/Anh Đã Quen Với Cô Đơn - Soobin Hoàng Sơn (Lyrics) (128  kbps).mp3',
+        path : './assets/music/sobin/Anh Đã Quen Với Cô Đơn - Soobin Hoàng Sơn (Lyrics) (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -450,7 +450,7 @@ var songs = [
     {
         id : 32,
         name : 'DAYDREAMS',
-        path : '/assets/music/sobin/DAYDREAMS _ Soobin Hoàng Sơn ft. BigDaddy _ Nhạc trẻ hay tuyển chọn (128  kbps).mp3',
+        path : './assets/music/sobin/DAYDREAMS _ Soobin Hoàng Sơn ft. BigDaddy _ Nhạc trẻ hay tuyển chọn (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -460,7 +460,7 @@ var songs = [
     {
         id : 33,
         name : 'Ngày Mai Em Đi',
-        path : '/assets/music/sobin/Ngày Mai Em Đi (128  kbps).mp3',
+        path : './assets/music/sobin/Ngày Mai Em Đi (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -470,7 +470,7 @@ var songs = [
     {
         id : 34,
         name : 'NẾU NGÀY ẤY',
-        path : '/assets/music/sobin/NẾU NGÀY ẤY _ SOOBIN HOÀNG SƠN [Official Lyric Video] (128  kbps).mp3',
+        path : './assets/music/sobin/NẾU NGÀY ẤY _ SOOBIN HOÀNG SƠN [Official Lyric Video] (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -480,7 +480,7 @@ var songs = [
     {
         id : 35,
         name : 'PHÍA SAU MỘT CÔ GÁI',
-        path : '/assets/music/sobin/PHÍA SAU MỘT CÔ GÁI - Soobin Hoàng Sơn ( OFFICIAL Lyric Video ) (128  kbps).mp3',
+        path : './assets/music/sobin/PHÍA SAU MỘT CÔ GÁI - Soobin Hoàng Sơn ( OFFICIAL Lyric Video ) (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -490,7 +490,7 @@ var songs = [
     {
         id : 36,
         name : 'XIN ĐỪNG LẶNG IM ',
-        path : '/assets/music/sobin/SOOBIN HOÀNG SƠN - XIN ĐỪNG LẶNG IM _ Official Audio Lyrics _ Nhạc Trẻ Hay Nhất (128  kbps).mp3',
+        path : './assets/music/sobin/SOOBIN HOÀNG SƠN - XIN ĐỪNG LẶNG IM _ Official Audio Lyrics _ Nhạc Trẻ Hay Nhất (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/soobin_pic.jpg' ,
         id_Singer : 8,
@@ -500,7 +500,7 @@ var songs = [
     {
         id : 37,
         name : 'Muộn Rồi Mà Sao Còn',
-        path : '/assets/music/sontung/Muộn Rồi Mà Sao Còn.mp3',
+        path : './assets/music/sontung/Muộn Rồi Mà Sao Còn.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/sontung_pic.jpg' ,
         id_Singer : 9,
@@ -510,7 +510,7 @@ var songs = [
     {
         id : 38,
         name : 'Chúng Ta Của Hiện Tại',
-        path : '/assets/music/sontung/Sơn Tùng M-TP - Chúng Ta Của Hiện Tại.mp3',
+        path : './assets/music/sontung/Sơn Tùng M-TP - Chúng Ta Của Hiện Tại.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/sontung_pic.jpg' ,
         id_Singer : 9,
@@ -520,7 +520,7 @@ var songs = [
     {
         id : 39,
         name : 'CÓ CHẮC YÊU LÀ ĐÂY',
-        path : '/assets/music/sontung/SƠN TÙNG M-TP - CÓ CHẮC YÊU LÀ ĐÂY - OFFICIAL MUSIC VIDEO.mp3',
+        path : './assets/music/sontung/SƠN TÙNG M-TP - CÓ CHẮC YÊU LÀ ĐÂY - OFFICIAL MUSIC VIDEO.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/sontung_pic.jpg' ,
         id_Singer : 9,
@@ -530,7 +530,7 @@ var songs = [
     {
         id : 40,
         name : 'HÃY TRAO CHO ANH',
-        path : '/assets/music/sontung/SƠN TÙNG M-TP _ HÃY TRAO CHO ANH ft. Snoop Dogg _ Official MV (128  kbps).mp3',
+        path : './assets/music/sontung/SƠN TÙNG M-TP _ HÃY TRAO CHO ANH ft. Snoop Dogg _ Official MV (128  kbps).mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: '/assets/img/picture_song/sontung_pic.jpg' ,
         id_Singer : 9,
