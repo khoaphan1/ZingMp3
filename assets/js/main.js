@@ -645,27 +645,6 @@ var scrollAmout = 0;
         // var scrollPerClick = $('.img-1').clientWidth + ImagePadding;
 var scrollPerClick = 1000
 
-        function sliderScrollLeft() {
-          sliders.scrollTo({
-            top:0,
-            left : (scrollAmout -= scrollPerClick),
-            behavior : "smooth"
-          });
-
-          if(scrollAmout < 0){
-            scrollAmout = 0
-          }
-        }
-
-        function sliderScrollRight() {
-          if(scrollAmout <= sliders.scrollWidth - sliders.clientWidth){
-              sliders.scrollTo({
-              top:0,
-              left : (scrollAmout += scrollPerClick),
-              behavior : "smooth"
-            });
-          }
-        }
 
 
 const PLAYER_STORAGE_KEY = 'F8_PLAYER'
@@ -682,7 +661,12 @@ const app = {
     isOpenCdMore : false,
     isFull : false,
     appSongs : totalSong,
+    config :  JSON.parse(localStorage.getItem(PLAYER_STORAGE_KEY)) || {},
     historySongs : [],
+    setConfig: function(key,value){
+        this.config[key] = value;
+        localStorage.setItem(PLAYER_STORAGE_KEY, JSON.stringify(this.config));
+    },
     // render ra giao diện của danh sách bài hát
     render: function(){
         console.log(this.historySongs);
@@ -1097,13 +1081,15 @@ const app = {
 
         // Khi random
         randomBtn.onclick = function() {
-            _this.isRandom = !_this.isRandom
-            randomBtn.classList.toggle('active', _this.isRandom)
+            _this.isRandom = !_this.isRandom;
+            _this.setConfig('isRandom', _this.isRandom);
+            randomBtn.classList.toggle('active', _this.isRandom);
         }
 
         // Khi lặp lại bài hát
         repeatBtn.onclick = function() {
             _this.isRepeat = !_this.isRepeat
+            _this.setConfig('isRepeat', _this.isRepeat);
             repeatBtn.classList.toggle('active', _this.isRepeat)
         }
 
@@ -1139,6 +1125,7 @@ const app = {
                 nextBtn.click();
             }
         }
+
 
 
         // lắng nghe hành vi click vào playlist
@@ -1238,6 +1225,7 @@ const app = {
         //     }
         // })
 
+        // xu ly su kien tim kiem
         searchInput.onkeyup = function(){
             // console.log('abc')
             suggestionsPanel.classList.remove('search-hide')
@@ -1301,6 +1289,7 @@ const app = {
             event.stopPropagation()
         }
 
+        // dong mo giao dien
         btnWatchFull.onclick = function(){
             if(_this.isFull === false){
                 _this.rederFullMusic();
@@ -1331,6 +1320,7 @@ const app = {
             }
         })
 
+        // xu ly phan gio trong dat thoi gian
         timerOptions.forEach((time, index) => {
             const hourItem = hourSetupItem[index]
 
@@ -1355,6 +1345,7 @@ const app = {
             }
         })
 
+        // xu ly phan phut trong dat thoi gian
         minutesOptions.forEach((time, index) => {
             const minutesItem = minutesSetupItem[index]
 
@@ -1603,6 +1594,10 @@ const app = {
         this.currentIndex = newIndex;
         this.loadCurrentSong();
     },
+    loadConfig: function(){
+        this.isRandom = this.config.isRandom;
+        this.isRepeat = this.config.isRepeat;
+    },
     slideScrollLeft: function(){
         sliders.scrollTo({
             top:0,
@@ -1626,6 +1621,9 @@ const app = {
 
     //thực thi hàm bắt đầu
     start : function(){
+
+        this.loadConfig();
+
         this.addCurrentSongInHistoryList();
         this.removeSameSong(this.historySongs);
 
@@ -1650,7 +1648,9 @@ const app = {
         // Render ra danh sách bài hát
         this.render();
 
-
+        // Hien thi trang thai ban dau cua button
+        randomBtn.classList.toggle('active', this.isRandom)
+        repeatBtn.classList.toggle('active', this.isRepeat)
 
 
     }
@@ -1684,6 +1684,8 @@ slideShow();
 // // d.toString()
 
 // console.log(d);
+
+// thay doi dinh dang ngay
 
 function formatted_date()
 {
