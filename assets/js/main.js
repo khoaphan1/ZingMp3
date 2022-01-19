@@ -160,7 +160,7 @@ var songs = [
     {
         id : 3,
         name : 'Nàng Thơ',
-        path : '/assets/music/hoangdung/Hoàng Dũng – Nàng Thơ.mp3',
+        path : '/assets/music/hoangdung/nangtho.mp3',
         linkMV : 'https://www.youtube.com/watch?v=9cPJLlNwO-w',
         imageSong: './assets/img/picture_song/hoangdung_pic.jpg' ,
         id_Singer : 1,
